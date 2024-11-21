@@ -8,7 +8,7 @@
 
 @section('content')
 	<p>Welcome to this beautiful admin panel.</p>
-    <table class="table">
+    <table class="table table-dark table-striped tabla_azul">
 		<th colspan="13"> Diagrama de Isorequerimientos</th>
 		<tr>
 			<th colspan="2">Localidad</th>

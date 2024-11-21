@@ -19,3 +19,5 @@ use App\Http\Controllers\IsoReqController;
 Route::get('', [HomeController::class, 'index']);
 
 Route::get('/isorequerimientos', [IsoReqController::class, 'index']);
+Route::get('/iluminancia/index', [IsoReqController::class, 'iluminancia']);
+Route::get('/iluminancia/parameters', [IsoReqController::class, 'iluminancia_mes']);

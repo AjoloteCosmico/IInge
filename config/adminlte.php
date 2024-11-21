@@ -329,9 +329,14 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'CALCULOS DE ILUMINANCIA',
+            'url' => 'iluminancia/index',
+            'icon' => 'fas fa-fw fa-sun',
+        ],
+        [
+            'text' => 'MESES  ILUMINANCIA',
+            'url' => 'iluminancia/parameters',
+            'icon' => 'fas fa-fw fa-sun',
         ],
         [
             'text' => 'multilevel',
